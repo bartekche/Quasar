@@ -32,13 +32,14 @@
         </div>
         <div class="input_box">
             <label for="address">Amount of tokens:</label>
-            <input type="number" name="tokens_amount" min="1">
+            <input id="amount" type="number" name="tokens_amount" min="1">
         </div>
         <div class="input_box">
-            <input type="submit" value="Reward NFT">
+            <input id="form_button" type="submit" value="Reward NFT">
         </div>
     </form>
     <script src="javascripts/preload.js"></script>
+    <script src="javascripts/form.js"></script>
     <script src="javascripts/html5-qrcode.min.js"></script>
     <script>
         var html5QrcodeScanner = new Html5QrcodeScanner(
