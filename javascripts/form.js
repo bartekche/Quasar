@@ -15,5 +15,5 @@ submit.addEventListener("click", function (event) {
     xmlhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
     xmlhttp.send(JSON.stringify({"address" : address, "nft_type": "GymNFT", "nft_count": amount}));
     console.log("Request made")
-    window.location.href = "success.html";
+    //window.location.href = "success.html";
 });
